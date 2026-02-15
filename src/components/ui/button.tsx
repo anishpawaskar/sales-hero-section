@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils';
-import { cva } from 'class-variance-authority';
+import { cva, VariantProps } from 'class-variance-authority';
 import React from 'react';
 
 export const buttonVariants = cva(
@@ -27,11 +27,8 @@ export const buttonVariants = cva(
   }
 );
 
-type ButtonProps = {
-  className?: string;
-  variant?: string;
-  size: string;
-};
+type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> &
+  VariantProps<typeof buttonVariants>;
 
 export const Button = ({
   className,
