@@ -20,10 +20,10 @@ export const Hero = () => {
             <ChevronRightIcon size={16} />
           </Button>
         </div>
-        <h1 className='mt-6 text-center font-serif text-4xl md:text-5xl lg:text-6xl'>
+        <h1 className='mt-6 text-center font-serif text-4xl tracking-tight md:text-5xl lg:text-6xl'>
           AI-Powered Growth to <br /> Supercharge Sales
         </h1>
-        <p className='mt-6 max-w-lg text-center text-sm text-neutral-600 md:text-base'>
+        <p className='mt-4 max-w-lg text-center text-sm text-neutral-600 md:text-base'>
           Unlock salses potential through AI automation - and accelerate your
           business growth by 10X.
         </p>
@@ -51,9 +51,7 @@ export const Hero = () => {
           <div className='flex flex-1 flex-col rounded-xl bg-white p-4 text-neutral-900'>
             <div className='flex items-center gap-4'>
               <div className='size-12 rounded-md bg-yellow-400'></div>
-              <h3 className='text-lg font-semibold md:text-xl'>
-                Product visit
-              </h3>
+              <h3 className='text-lg font-semibold'>Product visit</h3>
             </div>
             <div className='mt-4 flex items-center gap-2 text-sm'>
               <span>on</span>
